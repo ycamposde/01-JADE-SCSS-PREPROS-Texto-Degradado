@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+body {
+  background: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Lobster; }
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+  color: transparent;
+  font-weight: normal;
+  background: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(yellow), to(red));
+  background: -webkit-linear-gradient(red, yellow, red);
+  background: -o-linear-gradient(red, yellow, red);
+  background: linear-gradient(red, yellow, red);
+  -webkit-background-clip: text; }
